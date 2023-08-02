@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <h1>Flip Coin</h1>
+        <div class="coins">
+            <img onclick="spin()" id="tails" src="./tails.svg" width="200px" alt="tails">
+            <img onclick="spin()" id="heads" src="./heads.svg" width="200px" style="display: none;" alt="tails">
+        </div>
+        <div class="result">
+            <h2>Tails : <span id="tails_number">0</span></h2>
+            <h2>Heads : <span id="heads_number">0</span></h2>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
